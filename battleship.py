@@ -1,6 +1,12 @@
 from random import randint
 
 board = []
+print """  ..You can Guess Rows and Columns from 0 to 4 Inclusive to win this Game..
+           ..You will have 4 chances to finish of the Game..!
+           ..Good Luck.."""
+print ""
+print ""
+print ""
 
 for x in range(0, 5):
   board.append(["O"] * 5)
